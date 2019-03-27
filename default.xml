@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="prabhaswork"  fetch="git://github.com/prabhaswork"/>
+
+  <default sync-j="4"/>
+
+  <project remote="prabhaswork"  revision="master"      name="AVRM"            path="sources/test"/>
+
+</manifest>
