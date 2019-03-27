@@ -4,6 +4,7 @@
 
   <default sync-j="4"/>
 
-  <project remote="prabhaswork"  revision="master"      name="AVRM"            path="sources/test"/>
+  <project remote="prabhaswork"     revision="master"      name="AVRM"          path="sources/avrm"/>
+  <project remote="prabhaswork"     revision="master"      name="mainfests"     path="sources/mainfests"/>
 
 </manifest>
