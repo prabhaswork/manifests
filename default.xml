@@ -7,7 +7,7 @@
 
   <project remote="prabhaswork"     revision="master"      name="AVRM"              path="sources/avrm"/>
   <project remote="prabhaswork"     revision="master"      name="manifests"         path="sources/mainfest"/>
-  <project remote="poky"	    revision="thud"        name="poky"              path="sources/core"/>
+  <project remote="poky"	    revision="thud"        name="thud"              path="sources/core"/>
 
 </manifest>
 
