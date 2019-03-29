@@ -7,6 +7,6 @@
 
   <project remote="prabhaswork"     revision="master"      name="AVRM"              path="sources/avrm"/>
   <project remote="prabhaswork"     revision="master"      name="manifests"         path="sources/mainfest"/>
-  <project remote="yocto"           revision="refs/heads/thud" name="poky"         path="sources/core"/>
+  <project remote="yocto"           revision="refs/heads/thud" name="poky"         />
 </manifest>
 
