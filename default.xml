@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="prabhaswork"  fetch="git://github.com/prabhaswork"/>
-  <remote name="poky"  	      fetch="git://git.yoctoproject.org/poky"/>
-
+  <remote name="yocto" 	      fetch="git://git.yoctoproject.org" />
+  
   <default sync-j="4"/>
 
   <project remote="prabhaswork"     revision="master"      name="AVRM"              path="sources/avrm"/>
   <project remote="prabhaswork"     revision="master"      name="manifests"         path="sources/mainfest"/>
-  <project remote="poky"	    revision="thud"        name="thud"              path="sources/core"/>
-
+  <project remote="yocto"           revision="refs/heads/thud" name="poky"         path="sources/core"/>
 </manifest>
 
